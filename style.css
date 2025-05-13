@@ -5,22 +5,32 @@ header{
     justify-content: space-between;
     font-family: Inter;
     background-color: black;
+    border-bottom: 1px solid #D0D1D3;
+    
+
+
 }
 
-br{
-    background-color: black;
+.cabecalho{
+    padding-left: 323px;
+    padding-top: 26px;
 }
+
 
 .botoes_header{
-    justify-content: space-between;
     width: 478px;
     height: 40px;
+    padding-top: 26px;
+    padding-right: 126px;
 }
 
-.botoes_header1{
+.botoes_header a{
+    padding: 0 16px;
     text-decoration: none;
     color: #FFFFFF;
+    
 }
+
 
 section{
     width: 100%;
@@ -33,7 +43,7 @@ section{
     width: 1296px;
     height: 359px;
     margin: 0 auto;
-    margin-top: 152px;
+    padding-top: 152px;
     color:#C4C4C4;
     align-items: center;
     
