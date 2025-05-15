@@ -86,6 +86,7 @@ section {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    background-color: #000;
 }
 
 .block1_card {
