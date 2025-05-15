@@ -82,13 +82,12 @@
             display: flex;
             max-width: 1296px;
             margin: 0 auto;
-            padding: 100px 20px 0;
             align-items: center;
-            justify-content: space-between;
         }
 
         .block1_card {
             max-width: 380px;
+            margin: 0 auto;
         }
 
         .block1_card h2 {
@@ -117,6 +116,7 @@
             padding: 0 20px;
             align-items: center;
             justify-content: space-between;
+            
         }
 
         .block2 img {
@@ -290,13 +290,17 @@
 
         @media (max-width: 768px) {
             .cabecalho {
-                flex-direction: column;
+                width: 100%;
+                display: flex;
+                align-items: center;
                 height: auto;
                 padding: 20px;
+
             }
 
             .img {
                 margin-bottom: 20px;
+               
             }
 
             .botoes_cabecalho ul {
